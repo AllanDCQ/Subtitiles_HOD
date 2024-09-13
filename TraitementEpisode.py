@@ -31,7 +31,6 @@ class TraitementEpisode:
 
                 except:
                     logging.critical("Echec de la récupération.")
-                    pass
             logging.info("Succès récupération des sous titres.")
 
         except:
